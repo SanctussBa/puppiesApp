@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 100vh;
+  background-color: rgb(231, 231, 231);
+}
+.title {
+  padding: 20px;
+}
+.left-container,
+.right-container {
+  width: 100%;
+  border: solid 1px green;
+}
+
+.select-puppy,
+.add-puppy {
+  background-color: aliceblue;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.puppy-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: antiquewhite;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.add-puppy-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 20px;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 300px;
+  height: 20px;
+}
+
+input[type="submit"] {
+  width: 100px;
+  height: 30px;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+span {
+  font-size: 50px;
+}
+
+.add-puppy-button,
+.delete-button {
+  border: none;
+  background-color: rgb(39, 241, 130);
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(40, 59, 40);
+  border-radius: 10px;
+}
+
+.add-puppy-button:hover,
+.delete-button:hover {
+  color: aliceblue;
+}
+
+.delete-button {
+  background-color: rgb(250, 147, 128);
+}
+
+.line {
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+}
+
+.line-left {
+  width: 100px;
+  display: flex;
+  align-items: flex-start;
+  font-size: small;
+}
